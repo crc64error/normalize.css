@@ -1,5 +1,9 @@
 # Changes to normalize.css
 
+### 8.0.3 (September 4th, 2024)
+
+* Added changes for :focus, margin-bl;ock, margin-inline, *, *::before, *::after, prefers-reduced-motion, aspect-ration, gap for flex-container
+
 ### 8.0.2 (September 4th, 2024)
 
 * Added some new fixes based on https://www.youtube.com/watch?v=eWmDW4zEXt4
@@ -38,7 +42,7 @@
 * Remove `::placeholder` styles due to a bug in Edge.
 * More explicitly define font resets on form controls.
 * Remove the `optgroup` normalization needed by the previous font reset.
-* Update text-size-adjust documentation  for IE on Windows Phone
+* Update text-size-adjust documentation for IE on Windows Phone
 * Update OS X reference to macOS
 * Update the semver strategy.
 

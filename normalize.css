@@ -1,8 +1,9 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.3 | MIT License | github.com/crc64error/normalize.css */
 
 /* Document
    ========================================================================== */
 
+/* Version 8.0.2 */
 /**
  * Some additions for modern CSS styles
  * https://youtu.be/eWmDW4zEXt4
@@ -36,13 +37,57 @@ p, li, figcaption {
  * as well as section and article elements, making it easier to adapt content
  * based on container sizes rather than viewport size alone.
  */
-body > is:(header, footer),
+body > is:(header, footer), /* These seems to create an error in my vscode, ignore it the error message */
 main,
 section,
 article {
     container-type: inline-size;
 }
+/* End Version 8.0.2 */
 
+/* Version 8.0.3 */
+/* Modern Focus Styles to emphasize accessibility */
+:focus {
+  outline: 2px solid #005fcc;
+  outline-offset: 4px;
+}
+
+/* Logical Properties for Margin and Padding to account for vertical writing in some languages */
+body {
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+/* Box sizing consistency across all elements and pseudo-elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Media Query for reduced motion in support of users with motion sensitivity */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Normalizing image and video elements with aspect-ratio for consistent scaling */
+img, video {
+  aspect-ratio: auto;
+  height: auto;
+  width: 100%;
+}
+
+/* Gap is now supported in Flexbox and grid */
+.flex-container {
+  display: flex;
+  gap: 1rem;
+}
+/* End Version 8.0.3 */
+
+/* Version 8.0.1 */
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
