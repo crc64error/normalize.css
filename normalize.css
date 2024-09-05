@@ -4,6 +4,46 @@
    ========================================================================== */
 
 /**
+ * Some additions for modern CSS styles
+ * https://youtu.be/eWmDW4zEXt4
+ */
+
+/* 
+ * Balances the text wrapping for all heading elements (h1 to h6) 
+ * This ensures more visually balanced line breaks within headings, 
+ * improving readability, especially for longer headings.
+ */
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+/* 
+ * Applies a "pretty" text wrap to paragraphs (p), list items (li), 
+ * and figure captions (figcaption), providing more natural text wrapping. 
+ * Limits their maximum width to 65 characters (ch), which enhances readability, 
+ * especially in blocks of text. The "65ch" limit is based on readability research.
+ */
+p, li, figcaption {
+    text-wrap: pretty;
+    max-width: 65ch;
+}
+
+/* 
+ * Defines container query behavior for specific layout elements.
+ * 'container-type: inline-size' enables container queries based on the 
+ * inline-size (width) of the container, allowing for responsive design adjustments.
+ * Applies to the header, main, and footer elements directly under the body, 
+ * as well as section and article elements, making it easier to adapt content
+ * based on container sizes rather than viewport size alone.
+ */
+body > is:(header, footer),
+main,
+section,
+article {
+    container-type: inline-size;
+}
+
+/**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
