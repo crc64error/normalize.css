@@ -1,6 +1,6 @@
 # Changes to normalize.css
 
-### 8.02 (September 4th, 2024)
+### 8.0.2 (September 4th, 2024)
 
 * Added some new fixes based on https://www.youtube.com/watch?v=eWmDW4zEXt4
 * Added [type="search"] { appearance: textfield; }
