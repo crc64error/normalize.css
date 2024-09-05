@@ -5,6 +5,8 @@
 * Added some new fixes based on https://www.youtube.com/watch?v=eWmDW4zEXt4
 * Added [type="search"] { appearance: textfield; }
 * Added button, [type="button"], [type="reset"], [type="submit"] { appearance: button; }
+* Removed files that are unneccesary for use of the simple css file. Simple css is always better than othercss.
+* Updated changelog, README.md
 
 ### 8.0.1 (November 4, 2018)
 
