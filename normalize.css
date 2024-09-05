@@ -37,12 +37,13 @@ p, li, figcaption {
  * as well as section and article elements, making it easier to adapt content
  * based on container sizes rather than viewport size alone.
  */
-body > is:(header, footer), /* These seems to create an error in my vscode, ignore it the error message */
-main,
-section,
-article {
-    container-type: inline-size;
-}
+ body > header,
+ body > footer,
+ main,
+ section,
+ article {
+     container-type: inline-size;
+ }
 /* End Version 8.0.2 */
 
 /* Version 8.0.3 */

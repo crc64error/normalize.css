@@ -1,42 +1,42 @@
 # Changes to normalize.css
 
-### 8.0.3 (September 4th, 2024)
+## 8.0.3 (September 4th, 2024)
 
-* Added changes for :focus, margin-bl;ock, margin-inline, *, *::before, *::after, prefers-reduced-motion, aspect-ration, gap for flex-container
+* Added changes for :focus, margin-block, margin-inline, *,*::before, *::after, prefers-reduced-motion, aspect-ration, gap for flex-container
 
-### 8.0.2 (September 4th, 2024)
+## 8.0.2 (September 4th, 2024)
 
-* Added some new fixes based on https://www.youtube.com/watch?v=eWmDW4zEXt4
+* Added some new fixes based on <https://www.youtube.com/watch?v=eWmDW4zEXt4>
 * Added [type="search"] { appearance: textfield; }
 * Added button, [type="button"], [type="reset"], [type="submit"] { appearance: button; }
-* Removed files that are unneccesary for use of the simple css file. Simple css is always better than othercss.
+* Removed files that are unnecessary for use of the simple css file. Simple css is always better than other-css.
 * Updated changelog, README.md
 
-### 8.0.1 (November 4, 2018)
+## 8.0.1 (November 4, 2018)
 
 * Fix regression in IE rendering of `main` element.
 
-### 8.0.0 (February 2, 2018)
+## 8.0.0 (February 2, 2018)
 
 * Remove support for older browsers Android 4, lte IE 9, lte Safari 7.
 * Don't remove search input cancel button in Chrome/Safari.
 * Form inputs inherit `font-family`.
 * Fix text decoration in Safari 8+.
 
-### 7.0.0 (May 2, 2017)
+## 7.0.0 (May 2, 2017)
 
 * Revert changes in `body` and form elements styles introduced by v6
 
-### 6.0.0 (March 26, 2017)
+## 6.0.0 (March 26, 2017)
 
 * Remove all opinionated rules
 * Correct document heading comment
 * Update `abbr[title]` support
 
-### 5.0.0 (October 3, 2016)
+## 5.0.0 (October 3, 2016)
 
 * Add normalized sections not already present from
-  https://html.spec.whatwg.org/multipage/.
+  <https://html.spec.whatwg.org/multipage/>.
 * Move unsorted rules into their respective sections.
 * Update the `summary` style in all browsers.
 * Remove `::placeholder` styles due to a bug in Edge.
@@ -46,17 +46,17 @@
 * Update OS X reference to macOS
 * Update the semver strategy.
 
-### 4.2.0 (June 30, 2016)
+## 4.2.0 (June 30, 2016)
 
 * Correct the `line-height` in all browsers.
 * Restore `optgroup` font inheritance.
 * Update normalize.css heading.
 
-### 4.1.1 (April 12, 2016)
+## 4.1.1 (April 12, 2016)
 
 * Update normalize.css heading.
 
-### 4.1.0 (April 11, 2016)
+## 4.1.0 (April 11, 2016)
 
 * Normalize placeholders in Chrome, Edge, and Safari.
 * Normalize `text-decoration-skip` property in Safari.
@@ -69,7 +69,7 @@
 * Update stylelint configuration.
 * Update tests.
 
-### 4.0.0 (March 19, 2016)
+## 4.0.0 (March 19, 2016)
 
 * Add the correct font weight for `b` and `strong` in Chrome, Edge, and Safari.
 * Correct inconsistent `overflow` for `hr` in Edge and IE.
@@ -97,23 +97,23 @@
 
 ---
 
-### 3.0.3 (March 30, 2015)
+## 3.0.3 (March 30, 2015)
 
 * Remove unnecessary vendor prefixes.
 * Add `main` property.
 
-### 3.0.2 (October 4, 2014)
+## 3.0.2 (October 4, 2014)
 
 * Only alter `background-color` of links in IE 10.
 * Add `menu` element to HTML5 display definitions.
 
-### 3.0.1 (March 27, 2014)
+## 3.0.1 (March 27, 2014)
 
 * Add package.json for npm support.
 
-### 3.0.0 (January 28, 2014)
+## 3.0.0 (January 28, 2014)
 
-### 3.0.0-rc.1 (January 26, 2014)
+## 3.0.0-rc.1 (January 26, 2014)
 
 * Explicit tests for each normalization.
 * Fix i18n for `q` element.
@@ -131,21 +131,21 @@
 
 ---
 
-### 2.1.3 (August 26, 2013)
+## 2.1.3 (August 26, 2013)
 
 * Fix component.json.
 * Remove the gray background color from active links in IE 10.
 
-### 2.1.2 (May 11, 2013)
+## 2.1.2 (May 11, 2013)
 
 * Revert root `color` and `background` normalizations.
 
-### 2.1.1 (April 8, 2013)
+## 2.1.1 (April 8, 2013)
 
 * Normalize root `color` and `background` to counter the effects of system
   color schemes.
 
-### 2.1.0 (January 21, 2013)
+## 2.1.0 (January 21, 2013)
 
 * Normalize `text-transform` for `button` and `select`.
 * Normalize `h1` margin when within HTML5 sectioning elements.
@@ -154,11 +154,11 @@
 * Add `main` element to HTML5 display definitions.
 * Fix cursor style for disabled button `input`.
 
-### 2.0.1 (August 20, 2012)
+## 2.0.1 (August 20, 2012)
 
 * Remove stray IE 6/7 `inline-block` hack from HTML5 display settings.
 
-### 2.0.0 (August 19, 2012)
+## 2.0.0 (August 19, 2012)
 
 * Remove legacy browser form normalizations.
 * Remove all list normalizations.
@@ -169,11 +169,11 @@
 
 ---
 
-### 1.0.1 (August 19, 2012)
+## 1.0.1 (August 19, 2012)
 
 * Adjust `small` font size normalization.
 
-### 1.0.0 (August 14, 2012)
+## 1.0.0 (August 14, 2012)
 
 (Only the notable changes since public release)
 
