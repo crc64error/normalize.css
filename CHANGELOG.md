@@ -1,5 +1,11 @@
 # Changes to normalize.css
 
+### 8.02 (September 4th, 2024)
+
+* Added some new fixes based on https://www.youtube.com/watch?v=eWmDW4zEXt4
+* Added [type="search"] { appearance: textfield; }
+* Added button, [type="button"], [type="reset"], [type="submit"] { appearance: button; }
+
 ### 8.0.1 (November 4, 2018)
 
 * Fix regression in IE rendering of `main` element.
